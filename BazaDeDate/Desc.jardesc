@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="WINDOWS-1251" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Denis/Desktop/Test.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/BazaDeDate/Desc.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=BazaDeDate/src&lt;{Interface.java[Interface" manifestLocation="/InformaticaTest/manifest.mf" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="true" exportOutputFolder="true">
+        <file path="/BazaDeDate/Doctors.txt"/>
+        <file path="/BazaDeDate/.project"/>
+        <file path="/BazaDeDate/Pacients.txt"/>
+        <file path="/BazaDeDate/.classpath"/>
+        <javaElement handleIdentifier="=BazaDeDate/src"/>
+    </selectedElements>
+</jardesc>
