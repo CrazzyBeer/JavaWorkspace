@@ -1,0 +1,63 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.lbl {
+	
+	-fx-background-radius: 20.0px 20.0px 20.0px 20.0px;
+	-fx-border-radius: 20.0px 20.0px 20.0px 20.0px;
+	-fx-padding : 8px 8px 8px 8px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-family: Verdana;
+}
+.lbl-left {
+	-fx-background-radius: 0px 20.0px 20.0px 0px;
+	-fx-padding : 8px 10px 8px 4px;
+}
+.lbl-right {
+	-fx-background-radius: 20px 0px 0px 20.0px;
+	-fx-padding : 8px 4px 8px 4px;
+}
+.lbl-noradius {
+	-fx-background-radius: 0px;
+}
+.lbl-error {
+	-fx-background-color: linear-gradient(#da1600 0.0%, #a30303 100.0%);
+}
+
+.lbl-success {
+	-fx-background-color: linear-gradient(#2a990b 0.0%, #2a990b 100.0%); 
+}
+
+.lbl-number {
+	-fx-background-color: linear-gradient(#2a990b 0.0%, #2a990b 100.0%); 
+	-fx-font-size: 10px;
+}
+
+.lbl-normal {
+	-fx-text-fill: black;
+	-fx-background-color: linear-gradient(#eeeeee 0.0%, #cccccc 100.0%);
+}
+
+.btn {
+	-fx-background-color: linear-gradient(#f3b75d 0%, #e69112 100%);
+	-fx-background-radius: 5.0;
+
+    -fx-padding: 1.0px 5px 1.0px 5px;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-font-size: 16.0px;
+    
+    -fx-border-radius: 5.0;
+    -fx-border-color: transparent;
+    -fx-border-width: 1.0px;
+}
+.btn-noradius {
+	-fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+.btn:hover {
+	-fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: linear-gradient(#f3b75d 0%, #e69112 100%);
+
+}
